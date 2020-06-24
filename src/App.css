@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  height: 60vh;
+  background-image: url(./assets/wave.svg);
+  background-size: cover;
+}
+
+.bs-stepper-circle {
+  background-color: #262626 !important;
+}
+
+.active .bs-stepper-circle {
+  background-color: #8cbc3c !important;
+}
+
+.active .bs-stepper-label {
+  color: #8cbc3c !important;
+}
+
+.mainForm, .loginCard{
+  margin-top: -120px !important;
+}
+
+#fb-btn { 
+  background-color: #3b5999;
+  border: #3b5999;
+}
+
+#gg-btn { 
+  background-color: #dd4b39;
+  border: #dd4b39;
+}
+
+.inputLabel {
+  font-size: small;
+}
+
+.logo-small {
+  width: 7rem;
+  height: 7rem;
+}
+
+.footer {
+  background-color: #F4F5EF;
+  color: #262626;
+  background-image: url(./assets/waveFooter.svg);
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.social-icons {
+  width: 2rem;
+  height: 2rem;
+}
+
+#copyright-banner {
+  background-color: #F4F5EF;
+  font-size: small;
+}
+
+#copyright-banner a{
+  color: #f1564b;
+  font-weight: bold;
+  font-size: small;
+}
+
+.loaderDiv {
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  transition: all 0.4s;
+}
+
+.sidebar {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  min-width: 250px;
+  max-width: 250px;
+  height: 100vh;
+  background-color: #262626;
+  transition: all 0.4s;
+}
+
+.sidebar-menu .list-group-item {
+  background-color: transparent;
+  color: #6c757d;
+  border: none;
+  font-weight: bold;
+}
+
+.sidebar-menu .current,
+.sidebar-menu .list-group-item:hover {
+  color: #fff;
+  border-left: #F2D335 solid 2px;
+  background-color: #293541;
+  transition: all 0.4s;
+}
+
+.toggled {
+  margin-left: -250px;
+  transition: all 0.4s;
+}
+
+.stats-text {
+  color: #6c757d;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.stats-icon {
+  color: #6c757d;
+}
+
+.stats-card {
+  border-left: #F2D335 solid 5px;
+
+}
+
+.btn-show {
+  background-color: #ffe75e;
+  color: #323232;
+  padding: 4px 40px;
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.check {
+  color: #2ABA66;
+}
+
+.loginTxt {
+  font-size: 1rem;
+}
+
+.howToText {
+  color: #262626;
+}
+
+.followUS {
+  color: #8FBC3E;
+}
+
+.logo {
+  height: 60px;
+  width: 100px;
+  margin-left: 70px;
+}
+
+.pacifcoTxt {
+  font-family: 'Pacifico', cursive;
+  color: #202020;
+}
+
+.btn-primary:disabled,
+.btn-primary[disabled] {
+  background-color: #dd4b39 !important;
+}
+
+@media screen and (max-width: 600px) {
+  .inputsLabels {
+    font-size: small !important;
+  }
+
+  .howToText {
+    font-size: 2rem;
+  }
+
+  .btnsText {
+    display: none;
+  }
+
+  .logo {
+    height: 30px;
+    margin-left: 20px;
+  }
+}
